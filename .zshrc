@@ -47,4 +47,5 @@ source /usr/share/nvm/install-nvm-exec
 export CHROME_EXECUTABLE=/usr/bin/google-chrome-stable
 
 
-
+GPG_TTY=$(tty)
+export GPG_TTY
